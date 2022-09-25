@@ -1,7 +1,10 @@
 import { serve } from "https://deno.land/std@0.157.0/http/server.ts";
 
 let shortUrls = {
-    '1111': 'https://www.google.com'
+  "1112": "https://deno.land",
+  "2222": "https://deno.com/deploy",
+  "google": "https://www.google.com",
+  "1111": "https://www.google.com"
 };
 const pattern = new URLPattern({ pathname: '/:id' });
 const clear = new URLPattern({ pathname: '/clear' });
